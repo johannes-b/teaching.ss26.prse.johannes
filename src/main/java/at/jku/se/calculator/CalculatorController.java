@@ -56,11 +56,11 @@ public class CalculatorController {
 	/**
 	 * Resets the controller state and returns the cleared display value.
 	 *
-	 * @return {@code "0"}
+	 * @return {@code ""}
 	 */
 	public String clear() {
 		pendingAction = null;
-		return "0";
+		return "";
 	}
 
 	// ---

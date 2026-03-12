@@ -50,12 +50,12 @@ public class TestCalculatorController {
 	// --- clear ---
 
 	/**
-	 * clear() returns "0" and resets pending action so the next applyAction
+	 * clear() returns "" and resets pending action so the next applyAction
 	 * treats the display as a plain value (no calculation attempted).
 	 */
 	@Test
-	public void testClearReturnsZero() {
-		assertEquals("0", controller.clear());
+	public void testClearReturnsEmpty() {
+		assertEquals("", controller.clear());
 	}
 
 	/**
