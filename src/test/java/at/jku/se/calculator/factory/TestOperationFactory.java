@@ -44,6 +44,7 @@ public class TestOperationFactory {
 		ICalculationOperation operation = OperationFactory.getOperation(CalcAction.MULT);
 		assertTrue(operation instanceof MultiplyOperation);
 	}
+	
 
 	/**
 	 * Tests that DIV returns a {@link NullOperation} (not yet implemented).
